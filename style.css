@@ -1,0 +1,167 @@
+/* Style for the iPhone container */
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#iphone-container {
+    position: relative;
+    width: 300px; /* Adjust based on your image size */
+    margin: auto; /* Center the container */
+}
+
+/* Style for the iPhone image */
+#iphone-image {
+    width: 100%;
+    display: block;
+}
+
+/* Base style for clickable areas */
+.click-area {
+    position: absolute;
+    cursor: pointer;
+    /* Transparent background to make the area clickable but not visible */
+    /* background-color: rgba(0, 0, 0, 0); */
+    background-color: red;
+}
+
+/* Define specific areas by ID */
+#area-articles {
+    top: 385px;
+    left: 15px;
+    width: 270px;
+    height: 28px;
+}
+
+#area-home-btn {
+    top: 570px;
+    left: 15px;
+    width: 60px;
+    height: 35px;
+}
+
+#area-settings-btn {
+    top: 570px;
+    left: 85px;
+    width: 60px;
+    height: 35px;
+}
+
+#area-profile-btn {
+    top: 570px;
+    left: 160px;
+    width: 60px;
+    height: 35px;
+}
+
+#area-articles-btn {
+    top: 570px;
+    left: 225px;
+    width: 60px;
+    height: 35px;
+}
+
+#area-back-btn {
+    top: 42px;
+    left: 18px;
+    width: 48px;
+    height: 35px;
+}
+
+#area-article-unf1 {
+    top: 120px;
+    left: 15px;
+    width: 270px;
+    height: 50px;
+}
+
+#area-article-unf2 {
+    top: 210px;
+    left: 15px;
+    width: 270px;
+    height: 70px;
+}
+
+#area-article-unf3 {
+    top: 330px;
+    left: 15px;
+    width: 270px;
+    height: 20px;
+}
+
+#area-article-unf4 {
+    top: 390px;
+    left: 15px;
+    width: 270px;
+    height: 80px;
+}
+
+#area-article-unf5 {
+    top: 515px;
+    left: 15px;
+    width: 270px;
+    height: 55px;
+}
+
+#area-fil-btn {
+    top: 80px;
+    left:18px;
+    width: 35px;
+    height: 35px;
+}
+
+#area-article-fil1 {
+    top: 115px;
+    left: 15px;
+    width: 270px;
+    height: 40px;
+}
+
+#area-article-fil2 {
+    top: 205px;
+    left: 15px;
+    width: 270px;
+    height: 35px;
+}
+
+#area-article-fil3 {
+    top: 290px;
+    left: 15px;
+    width: 270px;
+    height: 70px;
+}
+
+#output-console {
+    min-height: 150px;
+    overflow: auto;
+    width: 400px;
+    position: relative;
+    background-color: black;
+    border-radius: 5px;
+    color: lime;
+    font-family: monospace;
+    align-items:start;
+}
+
+#output-console p{
+    margin: 5px;
+    padding: 2px;
+}
+
+#area-filter-1 {
+    top: 120px;
+    left: 15px;
+    width: 270px;
+    height: 50px;
+}
+
+
+/* #area-bottom {
+    top: 200px;
+    left: 25px;
+    width: 250px;
+    height: 100px;
+} */
+
+
+/* Add more areas with specific positions and sizes */
