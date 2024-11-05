@@ -1,12 +1,13 @@
 // State dictionary mapping images to active clickable areas
 const state = {
-    'images/home.png': ['area-articles'],
+    'images/home.png': ['area-articles', 'area-sector'],
     'images/articles.png': ['area-back-btn', 'area-fil-btn','area-article-unf1', 'area-article-unf2', 'area-article-unf3', 'area-article-unf4', 'area-article-unf5'],
     'images/articles_filtered.png': ['area-back-btn','area-fil-btn','area-article-fil1', 'area-article-fil2', 'area-article-fil3'],
     'images/article_opened.png' : ['area-back-btn'],
     'images/filter_1.png' : ['area-filter-1', 'area-filter-2', 'area-filter-3', 'area-filter-4', 'area-filter-5', 'area-filter-6', 'enable-drop', 'area-clear', 'filter-exit'],
     'images/filter_2.png' : ['area-filter-1', 'area-filter-2', 'area-filter-3', 'area-filter-4', 'area-filter-5', 'area-filter-6', 'disable-drop', 'dropdown-1', 'dropdown-2', 'dropdown-3', 'dropdown-4', 'filter-exit'],
     'images/filter_3.png' : ['area-filter-1', 'area-filter-2', 'area-filter-3', 'area-filter-4', 'area-filter-5', 'area-filter-6', 'enable-drop', 'area-clear', 'filter-go', 'area-go'],
+    'images/sector_expanded.png' : ['area-back-btn']
 };
 
 const all_btns = ['area-home-btn', 'area-settings-btn', 'area-profile-btn', 'area-articles-btn'];
@@ -18,7 +19,13 @@ const handledIDs = [
     'area-fil-btn',
     'area-article-fil1',
     'area-home-btn',
-    'area-article-unf1'
+    'area-article-unf1',
+    'enable-drop',
+    'disable-drop',
+    'dropdown-2',
+    'filter-exit',
+    'filter-go',
+    'area-sector'
 ];
 
 // Function to change the iPhone image source and update clickable areas
@@ -105,6 +112,9 @@ document.getElementById('filter-go').addEventListener('click', ()=> {
     changeImage('images/articles_filtered.png')
 })
 
+document.getElementById('area-sector').addEventListener('click', ()=> {
+    changeImage('images/sector_expanded.png')
+})
 
 let clickables = document.querySelectorAll('.click-area')
 
