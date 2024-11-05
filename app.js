@@ -73,11 +73,10 @@ document.getElementById('area-fil-btn').addEventListener('click', function() {
 document.getElementById('area-article-fil1').addEventListener('click', ()=> {
     changeImage('images/article_opened.png')
 })
-DynamicsCompressorNode
+
 document.getElementById('area-home-btn').addEventListener('click', ()=> {
     changeImage('images/home.png')
 })
-d
 document.getElementById('area-article-unf1').addEventListener('click', ()=> {
     current_console = document.getElementById('console-text')
     current_console.innerText = current_console.innerText + "\nError: this UI has not yet been implemented."

@@ -22,7 +22,7 @@ body {
     cursor: pointer;
     /* Transparent background to make the area clickable but not visible */
     /* background-color: rgba(0, 0, 0, 0); */
-    background-color: red;
+    /* background-color: red; */
 }
 
 /* Define specific areas by ID */
