@@ -22,7 +22,7 @@ body {
     cursor: pointer;
     /* Transparent background to make the area clickable but not visible */
     /* background-color: rgba(0, 0, 0, 0); */
-    /* background-color: red; */
+    background-color: red;
 }
 
 /* Define specific areas by ID */
@@ -149,19 +149,107 @@ body {
 }
 
 #area-filter-1 {
-    top: 120px;
-    left: 15px;
-    width: 270px;
-    height: 50px;
+    top: 240px;
+    left: 40px;
+    width: 18px;
+    height: 18px;
 }
 
+#area-filter-2 {
+    top: 240px;
+    left: 165px;
+    width: 18px;
+    height: 18px;
+}
 
-/* #area-bottom {
-    top: 200px;
-    left: 25px;
-    width: 250px;
-    height: 100px;
-} */
+#area-filter-3 {
+    top: 265px;
+    left: 40px;
+    width: 18px;
+    height: 18px;
+}
 
+#area-filter-4 {
+    top: 265px;
+    left: 165px;
+    width: 18px;
+    height: 18px;
+}
 
-/* Add more areas with specific positions and sizes */
+#area-filter-5 {
+    top: 290px;
+    left: 40px;
+    width: 18px;
+    height: 18px;
+}
+
+#area-filter-6 {
+    top: 290px;
+    left: 165px;
+    width: 18px;
+    height: 18px;
+}
+
+#enable-drop {
+    top: 350px;
+    left: 36px;
+    width: 222px;
+    height: 20px;
+}
+
+#area-clear {
+    top: 380px;
+    left: 120px;
+    width: 55px;
+    height: 30px;
+}
+
+#filter-exit {
+    top: 175px;
+    left: 240px;
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+}
+#filter-go {
+    top: 175px;
+    left: 240px;
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+}
+
+#dropdown-1 {
+    top: 370px;
+    left: 36px;
+    width: 222px;
+    height: 20px;
+}
+#dropdown-2 {
+    top: 390px;
+    left: 36px;
+    width: 222px;
+    height: 20px;
+}
+
+#dropdown-3 {
+    top: 410px;
+    left: 36px;
+    width: 222px;
+    height: 20px;
+}
+
+#dropdown-4 {
+    top: 430px;
+    left: 36px;
+    width: 222px;
+    height: 20px;
+}
+
+#disable-drop {
+    top: 350px;
+    left: 228px;
+    width: 30px;
+    height: 20px;
+}
+

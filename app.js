@@ -3,7 +3,10 @@ const state = {
     'images/home.png': ['area-articles'],
     'images/articles.png': ['area-back-btn', 'area-fil-btn','area-article-unf1', 'area-article-unf2', 'area-article-unf3', 'area-article-unf4', 'area-article-unf5'],
     'images/articles_filtered.png': ['area-back-btn','area-fil-btn','area-article-fil1', 'area-article-fil2', 'area-article-fil3'],
-    'images/article_opened.png' : ['area-back-btn']
+    'images/article_opened.png' : ['area-back-btn'],
+    'images/filter_1.png' : ['area-filter-1', 'area-filter-2', 'area-filter-3', 'area-filter-4', 'area-filter-5', 'area-filter-6', 'enable-drop', 'area-clear', 'filter-exit'],
+    'images/filter_2.png' : ['area-filter-1', 'area-filter-2', 'area-filter-3', 'area-filter-4', 'area-filter-5', 'area-filter-6', 'disable-drop', 'dropdown-1', 'dropdown-2', 'dropdown-3', 'dropdown-4', 'filter-exit'],
+    'images/filter_3.png' : ['area-filter-1', 'area-filter-2', 'area-filter-3', 'area-filter-4', 'area-filter-5', 'area-filter-6', 'enable-drop', 'area-clear', 'filter-go', 'area-go'],
 };
 
 const all_btns = ['area-home-btn', 'area-settings-btn', 'area-profile-btn', 'area-articles-btn'];
@@ -81,6 +84,27 @@ document.getElementById('area-article-unf1').addEventListener('click', ()=> {
     current_console = document.getElementById('console-text')
     current_console.innerText = current_console.innerText + "\nError: this UI has not yet been implemented."
 })
+
+document.getElementById('enable-drop').addEventListener('click', ()=> {
+    changeImage('images/filter_2.png')
+})
+
+document.getElementById('disable-drop').addEventListener('click', ()=> {
+    changeImage('images/filter_1.png')
+})
+
+document.getElementById('dropdown-2').addEventListener('click', ()=> {
+    changeImage('images/filter_3.png')
+})
+
+document.getElementById('filter-exit').addEventListener('click', ()=> {
+    changeImage('images/articles.png')
+})
+
+document.getElementById('filter-go').addEventListener('click', ()=> {
+    changeImage('images/articles_filtered.png')
+})
+
 
 let clickables = document.querySelectorAll('.click-area')
 
